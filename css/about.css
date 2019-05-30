@@ -1,0 +1,70 @@
+@media only screen and (max-width: 39.99em) {
+	.support-logos {
+		width: 50%;
+		padding: 3%;
+	}
+
+	#vision div p {
+		font-size: 132%;
+		letter-spacing: 0;
+	}
+
+	#vision img {
+		width: 18%;
+	}
+
+	.makeshift-adjust {
+		position: relative;
+		top: 30%;
+	}
+
+	.logo-extra-padding {
+		padding: 10%;
+	}
+
+	#ceo-strip h6 {
+		letter-spacing: 1px;
+	}
+
+	#support-header {
+		font-size: 130%;
+		margin-top: 20px;
+	}
+
+	#global {
+	top: 0px;
+	}
+
+	#mail-btn {
+		font-size: 12px;
+	}
+
+	#CEO div h4:first-child {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.makeshift-adjust {
+		position: relative;
+		top: 50%;
+	}
+
+	footer h4:first-child {
+		font-size: 1.2625rem
+	}
+}
+
+@media only screen and (min-width: 40em) and (max-width: 63.9375em) {
+	#vision div p {
+		font-size: 1.7em;
+		letter-spacing: 7px;
+	}
+}
+
+@media only screen and (min-width: 63.9375em) {
+	#vision div p {
+		font-size: 2.65em;
+		letter-spacing: 12px;
+	}
+}

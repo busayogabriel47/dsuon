@@ -1,0 +1,53 @@
+
+
+<p id=f1> </p>
+<p id=f2> </p>
+<p id=f3> </p>
+<p id=f4> </p>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script> 
+$(document).ready(function(){
+//retrieve all fund slots and store in variable
+ var fund1 =  document.getElementById('f1')
+ var fund2 =  document.getElementById('f2')
+ var fund3 =  document.getElementById('f3')
+ var fund4 =  document.getElementById('f4')
+
+ var multifundObject = "https://mapps.leadway-pensure.com/LeadwayMobileApplicationWebAPI/WebData/UnitPrice?clientId=9dy8earw04r09wjefsdp90zsjs"
+$.post(multifundObject)
+  .done(function(data){
+  	//convert data object to string
+  	JSON.stringify(data);	
+    var fundObject = data.Data
+    console.log(fundObject);
+    
+   var multifundOne = data.Data.Fund1UnitPrice
+   var multifundTwo = data.Data.Fund2UnitPrice
+   var multifundThree = data.Data.Fund3UnitPrice
+   var multifundFour = data.Data.Fund4UnitPrice
+
+
+
+   console.log(multifundOne)
+    console.log(multifundTwo)
+     console.log(multifundThree)
+      console.log(multifundFour)
+
+     fund1.innerHTML = multifundOne 
+     fund2.innerHTML = multifundTwo 
+     fund3.innerHTML = multifundThree
+     fund4.innerHTML = multifundFour
+
+
+
+
+  });
+
+ })
+
+</script>

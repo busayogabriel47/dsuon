@@ -1,0 +1,41 @@
+<!doctype> 
+<html> 
+<head> 
+<title>  </title>
+</head> 
+<body> 
+
+</body>
+</html> 
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script>
+chartsObject = "https://mapps.leadway-pensure.com/LeadwayMobileApplicationWebAPI/WebData/Chart"
+$.post( chartsObject, { Fund1: true, duration: 7 })
+  .done(function( data ) {
+   chartsObject = JSON.stringify(data);	
+   console.log(chartsObject);
+  });
+
+  $.post( chartsObject, { Fund2: true, duration: 7 })
+  .done(function( data ) {
+   chartsObject = JSON.stringify(data);	
+   console.log(chartsObject);
+  });
+
+  $.post( chartsObject, { Fund3: true, duration: 7 })
+  .done(function( data ) {
+   chartsObject = JSON.stringify(data); 
+   console.log(chartsObject);
+  });
+
+  $.post( chartsObject, { Fund4: true, duration: 7 })
+  .done(function( data ) {
+   chartsObject = JSON.stringify(data); 
+   console.log(chartsObject);
+  });
+</script> 

@@ -1,0 +1,29 @@
+
+ul.tabs {
+    text-align: center;
+}
+
+ul.tabs li {
+    float: none !important;
+    display: inline-block;
+}
+
+#collapsing-tabs li a:focus {
+	outline: 0;
+}
+
+#collapsing-tabs li a[aria-selected="true"] {
+	background-color: #fff !important;
+}
+
+.solar-sales {
+	color: green;
+}
+
+.service-icon-container{
+	margin-top: -0.4%;
+}
+
+footer {
+	padding-top: 5%;
+}

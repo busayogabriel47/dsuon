@@ -1,0 +1,551 @@
+/* brand customizations */ 
+
+.dsuon-lightgreen-text{
+     color:#a5a62d;
+}
+.dsuon-green-text{
+    color:#429312;
+}
+.dsuon-green-bg{
+   background-color: #429312;
+}
+
+.dsuon-orange-text{
+   color: #ffb846;
+}
+
+.dsuon-orange-bg{
+	background: #ffb947 !important;
+}
+.dsuon-font{
+	font-family: Moon light;
+}
+
+/*recurrent styles */ 
+
+.no-border{
+	border:transparent !important;
+}
+
+.no-margin-bottom{
+	margin-bottom: 0px;
+}
+
+.no-padding-top{
+	padding-top: 0px !important;
+}
+
+.no-padding-bottom{
+     padding-bottom: 0px !important;
+}
+
+.no-padding-right{
+	padding-right: 0px !important;
+}
+
+.no-padding-left{
+	padding-left: 0px !important;
+}
+
+.standard-padding{
+ padding:3% !important;
+}
+
+.clear-space{
+	margin: 3% !important;
+}
+
+.white{
+	color: white;
+}
+
+.standard-margin-left-right{
+	margin:0 3%;
+}
+
+.standard-margin-top-bottom{
+	margin:5% 0%;
+}
+
+.logo-size{
+	width:200px;
+}
+
+.heading{
+	font-size:3.5rem;
+}
+@font-face {
+	font-family: "Moon Light";
+	src: url("../Fonts/MoonTypeface/Moon Light.otf");
+}
+
+@font-face {
+	font-family: "Moon Bold";
+	src: url("../Fonts/MoonTypeface/Moon Bold.otf");
+}
+
+@font-face {
+	font-family: "Century Gothic";
+	src: url("../fonts/century-gothic/Century Gothic.ttf");
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Century Gothic", "Moon Light" !important;
+}
+
+
+.cell {
+	padding: 0;
+}
+
+#header {
+	background-color: #e7e7e7bf;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#header > :first-child {
+	height: inherit;
+}
+
+.header-icon {
+	font-size: 2.35em;
+}
+
+#light-bulb {
+	float: left;
+	margin-left: 25%;
+	font-size:1.5rem;
+
+}
+
+#cart {
+	float: right;                                       
+	margin-right: 25%;
+	font-size:1.5rem;
+}
+
+#landing-stage {
+	height: 70vh;
+}
+
+#landing-stage div {
+	height: inherit;
+}
+
+.melon-stage {
+	background-image: url("../images/Yellow-melons.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: inherit;
+}
+
+
+#team-btn {
+	background-color: #f8822c;
+	border-style: solid;
+	padding: 10px 30px;
+	color: white;
+}
+
+#team-icon {
+	display: block;
+	margin: auto;
+	padding: 2px;
+}
+
+#LifenDarkness {
+	background-image: url("../images/light-in-darkness.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	color: white;
+}
+
+#product-banner {
+	background-image: url("../images/product-banner.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	color: white;
+	position:relative;
+	top: -100px;
+}
+
+
+#withoutElectricity {
+	color: #fdc22c;
+}
+
+.btn-orange {
+	border-style: solid;
+	background-color: #f8822c;
+	color: white;
+	padding: 15px 10px
+}
+
+.fund-raising-caption{
+	font-weight: 800;
+}
+
+.h-max {
+	height: max-content;
+	padding: 25px 0;
+	margin: 25px 0;
+}
+
+#funds {
+	margin-top: 30px;
+}
+
+#funds h1 {
+	color: #f8822c;
+}
+
+#funds-icons-holder {
+	width: 85%;
+	margin: auto;
+}
+
+.funds-icons {
+	padding: 20%;
+}
+
+#donation {
+	padding: 1% 5%;
+}
+
+#rainbow {
+	background-image: url("../Images/rainbow-cloud-1.jpg");
+	background-size: cover;
+    margin-bottom: 0 !important;
+}
+
+#rainbow h4 {
+	color: #fff;
+}
+
+.profile-img {
+	border-radius: 50%;
+	width: 60px !important;
+}
+
+#Recognition {
+	position: relative;
+	top: 10%;
+}
+
+
+
+
+/* about us css */ 
+
+#strip-design{
+   box-shadow: #000000 0px 5px 38px;
+   position: relative;
+}
+
+.subheading-style{
+	padding:2% 0 2% 0;
+}
+
+#bg-orange-transparent {
+	width: 85%;
+	margin: auto;
+}
+
+.p-relative {
+	position: relative;
+} 
+
+.p-absolute {
+	position: absolute;
+}
+
+#global {
+	top: -100px;
+}
+
+#vision {
+	background: #ffb84699;
+	bottom: 0;
+}
+
+#vision > div {
+	padding: 1% 10%;
+}
+
+#vision div p {
+	margin: auto;
+	font-size: 2.7em;
+	letter-spacing: 13px;
+}
+
+#spyglass-figcaption {
+	margin-top: 0;
+	font-size: 1.5em;
+}
+
+#dsuon-founding {
+	margin-top: 0;
+	padding-bottom: 0 !important;
+}
+
+#dsuon-founding > img {
+	margin: auto;
+}
+
+.dsuon-letter-spacing {
+	letter-spacing: 5px
+}
+
+#dsuon-tabs {
+	border: 0;
+}
+
+#dsuon-tabs div > a:focus, #dsuon-tabs > a[aria-selected=true] {
+    background: transparent;
+    outline: 0;
+    color: #ffb846 !important;
+}
+
+#founder {
+	margin-bottom: 5%;
+}
+
+#connections {
+	background-image: url("../images/sun-(1).png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.support-logos {
+	width: 35%;
+}
+
+
+
+/*product page */ 
+
+#product-padding{
+	padding:15% 6% 10% 6%;
+}
+
+.topline-style{
+	position: relative;
+    top: -12px;
+}
+.tabs-title > a[aria-selected=true]{
+   background: transparent !important;
+   color: #ffb846!important ;
+}
+
+.products-clear-space{
+margin: 11% 5%;
+}
+
+.products-clear-space-top{
+	margin-bottom: 11%;
+}
+
+.curve-top-right{
+	border-top-right-radius: 30px;
+}
+
+.curve-bottom-left{
+	border-bottom-left-radius: 30px;
+}
+
+.product-card{
+	border-radius: 25px !important;
+	position: relative;
+    box-shadow: #818181 0px 5px 18px 1px !important;
+}
+
+.product-card-right{
+    position:relative;
+	top:130px;
+	left:10px;
+}
+
+.product-card-left{
+	position:relative;
+	bottom:130px;
+	right: 10px;
+}
+
+
+/* community page */ 
+
+.temp-height{
+	height: 200px;
+}
+
+.green{
+    background-color:#01bd9c;
+}
+.blue{
+    background-color:#0098db;
+}
+.purp{
+	background-color:#d10157;
+}
+.gold{
+	background-color:#d18b05;
+}
+.yellow{
+	background-color:#ffde1f;
+}
+.purp1{
+	background-color:#d03e7c;
+}
+.sdg:hover{
+	box-shadow: #000000 0px 5px 50px 10px;
+}
+.community-img{
+   height: 400px;
+   background: url(../images/inner-community-container.jpg)
+}
+.community-heading-height{
+	height:200px;
+}
+
+.campaign-strip{
+ border-radius: 10px;
+}
+
+.campaign-intro-pad{
+	background-color: white; 
+	box-shadow:#818181 0px 17px 47px 3px;
+}
+
+.campaign-group{
+ position:relative;
+ z-index:-1;  
+}
+
+.campaign-image{
+  position:relative;
+  z-index:1;
+  margin-top: -10%;
+}
+.campaign-banner{
+	position:relative;
+	left:10px;
+}
+
+#campaign-strip-padding{
+   padding:1%;
+}
+
+.product-card-left{
+	bottom: 15px;
+    right: 0px;
+}
+
+/* footer styles */
+#quicklinks {
+	list-style: none;
+	margin: 0;
+}
+
+.text-green {
+	color: green;
+}
+
+#mail-form {
+	margin: 0 5%;
+	border: 2px solid green;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+#mail-input {
+	margin-bottom: 0;
+	border-radius: inherit;
+	border-width: 0;
+}
+
+#mail-btn {
+	border-left: 2px solid green;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#form-submit {
+	width: max-content;
+	padding: 10px 25px;
+	background-color: #f8822c;
+	margin-top: 15px;
+	color: #fff;
+}
+
+.social-icon {
+	padding: 5%;
+}
+
+footer {
+	background-image: url("../images/clouds.jpg");
+	background-size: cover;
+}
+
+#base-rec {
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 1023px) {
+	#mail-form {
+		width: 70% !important;
+		margin: auto;
+	}
+
+	.funds-icons {
+	padding: 5%;
+	}
+
+	#network {
+		padding: 20px 0;
+	}
+
+
+	.little-space {
+		margin: 25px 0;
+	}
+
+	.no-margin-bottom-p {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#briefus {
+		height: 25vh;
+	}
+
+	.social-icon {
+		margin-top: 6%;
+	}
+}
+
+@media (max-width: 991px) {
+	#donation{
+		    padding: 3% 14%
+} 
+.logo-size{
+	width:200px;
+}
+
+.heading{
+	font-size: 1.5rem
+}
+
+.campaign-strip{
+	position:relative;
+	z-index:3;
+}
+.campaign-banner{
+	left:0;
+}
+}
